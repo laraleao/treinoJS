@@ -11,9 +11,11 @@ function Imc() {
 
   if (calculoImc < 18.5) {
     alert("Abaixo do Peso");
-  } else if (calculoImc >= 18.5 && calculoImc < 24.9) {
+  } else if (calculoImc >= 18.5 && calculoImc <= 24.9);
+  {
     alert("Peso Ideal");
-  } else if (calculoImc >= 25.0 && calculoImc < 29.9) {
+  }
+  if (calculoImc >= 25.0 && calculoImc <= 29.9) {
     alert("Sobre Peso");
   } else {
     alert("Obesidade");
